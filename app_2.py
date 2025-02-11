@@ -9,7 +9,7 @@ from collections import Counter
 import plotly.express as px
 
 # Configure API
-genai.configure(api_key="AIzaSyDrxC5xFCB-UhmtEqU2wlzc8NqfPQl-uZU")
+genai.configure(api_key="")
 
 # Add Poppler path
 os.environ['PATH'] += os.pathsep + r'C:\Program Files (x86)\poppler-24.07.0\Library\bin'
